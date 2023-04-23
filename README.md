@@ -1,19 +1,19 @@
-Nanobox Stylish
+Microbox Stylish
 ---------------
 
-A stylish little library that styles output according to the nanobox style guide (http://nanodocs.gopagoda.io/engines/style-guide/)
+A stylish little library that styles output according to the microbox style guide (https://docs.microbox.cloud/engines/style-guide/)
 
 
 ### Installation
 
 Frist `go get` the project...
 
-`go get github.com/nanobox-io/nanobox-golang-stylish`
+`go get github.com/mu-box/microbox-golang-stylish`
 
 
 ...then include the library in your project
 
-`include github.com/nanobox-io/nanobox-golang-stylish`
+`include github.com/mu-box/microbox-golang-stylish`
 
 
 ### Usage
@@ -25,7 +25,7 @@ Available styles:
 + Warning(body string)
 + Fatal(header, body string)
 
-For detailed information see the [complete documentation](http://godoc.org/github.com/nanobox-io/nanobox-golang-stylish)
+For detailed information see the [complete documentation](http://godoc.org/github.com/mu-box/microbox-golang-stylish)
 
 
 ### Examples
@@ -85,4 +85,4 @@ things are probably going to explode now
 
 ### Documentation
 
-Complete documentation is available on [godoc](http://godoc.org/github.com/nanobox-io/nanobox-golang-stylish).
+Complete documentation is available on [godoc](http://godoc.org/github.com/mu-box/microbox-golang-stylish).

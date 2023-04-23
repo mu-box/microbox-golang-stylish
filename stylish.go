@@ -1,9 +1,3 @@
-// Copyright (c) 2015 Pagoda Box Inc
-//
-// This Source Code Form is subject to the terms of the Mozilla Public License, v.
-// 2.0. If a copy of the MPL was not distributed with this file, You can obtain one
-// at http://mozilla.org/MPL/2.0/.
-//
 
 package stylish
 
@@ -30,7 +24,7 @@ func Nest(level int, msg string) (rtn string) {
 }
 
 // ProcessStart styles and prints a 'child process' as outlined at:
-// http://nanodocs.gopagoda.io/engines/style-guide#child-process
+// https://docs.microbox.cloud/engines/style-guide#child-process
 //
 // Usage:
 // ProcessStart "i am a process"
@@ -50,7 +44,7 @@ func ProcessStart(msg string, v ...interface{}) string {
 }
 
 // ProcessEnd styles and prints a 'child process' as outlined at:
-// http://nanodocs.gopagoda.io/engines/style-guide#child-process
+// https://docs.microbox.cloud/engines/style-guide#child-process
 //
 // Usage:
 // ProcessEnd
@@ -74,7 +68,7 @@ func Marker(mark, msg string, v ...interface{}) string {
 }
 
 // Bullet styles and prints a message as outlined at:
-// http://nanodocs.gopagoda.io/engines/style-guide#bullet-points
+// https://docs.microbox.cloud/engines/style-guide#bullet-points
 //
 // Usage:
 // Bullet "i am a bullet"
@@ -86,7 +80,7 @@ func Bullet(msg string, v ...interface{}) string {
 }
 
 // SubBullet styles and prints a message as outlined at:
-// http://nanodocs.gopagoda.io/engines/style-guide#bullet-points
+// https://docs.microbox.cloud/engines/style-guide#bullet-points
 //
 // Usage:
 // SubBullet "i am a sub bullet"
@@ -98,7 +92,7 @@ func SubBullet(msg string, v ...interface{}) string {
 }
 
 // Warning styles and prints a message as outlined at:
-// http://nanodocs.gopagoda.io/engines/style-guide#warning
+// https://docs.microbox.cloud/engines/style-guide#warning
 //
 // Usage:
 // Warning "You just bought Hot Pockets!"
@@ -114,7 +108,7 @@ func Warning(body string, v ...interface{}) string {
 }
 
 // ErrorHead styles and prints an error heading as outlined at:
-// http://nanodocs.gopagoda.io/engines/style-guide#fatal_errors
+// https://docs.microbox.cloud/engines/style-guide#fatal_errors
 //
 // Usage:
 // ErrorHead "nuclear launch detected"
@@ -132,7 +126,7 @@ func ErrorHead(heading string, v ...interface{}) string {
 }
 
 // ErrorBody styles and prints an error body as outlined at:
-// http://nanodocs.gopagoda.io/engines/style-guide#fatal_errors
+// https://docs.microbox.cloud/engines/style-guide#fatal_errors
 //
 // Usage:
 // ErrorBody "All your base are belong to us"
@@ -144,10 +138,10 @@ func ErrorBody(body string, v ...interface{}) string {
 }
 
 // ErrorFoot styles and prints an error body as outlined at:
-// http://nanodocs.gopagoda.io/engines/style-guide#fatal_errors
+// https://docs.microbox.cloud/engines/style-guide#fatal_errors
 //
 // Usage:
-// ErrorFoot())
+// ErrorFoot()
 //
 // Output:
 // ::::::::::::::::::::::::::::::::::::::::
@@ -156,7 +150,7 @@ func ErrorFoot() string {
 }
 
 // Error styles and prints a message as outlined at:
-// http://nanodocs.gopagoda.io/engines/style-guide#fatal_errors
+// https://docs.microbox.cloud/engines/style-guide#fatal_errors
 //
 // Usage:
 // Error "nuclear launch detected", "All your base are belong to us"

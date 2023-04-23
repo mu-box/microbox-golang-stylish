@@ -1,4 +1,4 @@
 code.build:
   engine: golang#refactor/v1
   config:
-    package: 'github.com/nanobox-io/nanobox-golang-stylish'
+    package: 'github.com/mu-box/microbox-golang-stylish'
